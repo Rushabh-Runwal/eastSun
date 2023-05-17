@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "product_with_VNo": "iphone 13 pro",
+      "product_name": "iphone 13 pro",
+      "product_img": "https://www.apple.com/v/iphone/home/be/images/overview/hero/iphone_13_pro_hero__gqclakbze4a6_medium_2x.png",
+      "product_link": "https://www.apple.com/iphone-13-pro/key-features/",
+      "starting_price": "from $999",
+      "price_range": "From $41.62/mo. for 24 mo. or $999 before trade‑in",
+      "product_brief_description": "Oh. So. Pro.",
+      "product_full_description": "iPhone 13 Pro takes a huge leap forward, bringing incredible speed to everything you do and dramatic new photo and video capabilities — all in two great sizes."
+    },
+    {
+      "product_with_VNo": "iphone 13",
+      "product_name": "iphone 13 ",
+      "product_img": "https://www.apple.com/v/iphone/home/bd/images/overview/hero/iphone_13__fc54ap6asium_large_2x.jpg",
+      "product_link": "https://www.apple.com/iphone-13/key-features/",
+      "starting_price": "from $799",
+      "price_range": "From $29.12/mo. for 24 mo. or $699 before trade‑in",
+      "product_brief_description": "Your new superpower.",
+      "product_full_description": "A lightning‑fast chip. A leap in battery life. And all‑new photo and video capabilities. iPhone 13 lets you do things you never could before — in two great sizes."
+    },
+    {
+      "product_with_VNo": "iphone 12",
+      "product_name": "iphone 12 ",
+      "product_img": "https://www.apple.com/v/iphone-12/key-features/f/images/overview/hero/hero_purple__dqiol61kx9oy_large.jpg",
+      "product_link": "https://www.apple.com/iphone-12/key-features/",
+      "starting_price": "from $699",
+      "price_range": "From $24.95/mo. for 24 mo. or $599 before trade‑in",
+      "product_brief_description": "Blast past fast.",
+      "product_full_description": "A superpowerful chip. 5G speed. An advanced dual‑camera system. A Ceramic Shield front that is tougher than any smartphone glass. And a bright, beautiful OLED display. iPhone 12 has it all — in two great sizes."
+    }
+    
+  ]
+}

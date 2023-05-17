@@ -1,0 +1,59 @@
+/* .youtubevideoswrapper{
+    background: #fff;
+    padding:50px;
+} */
+.singleVideoWrapper {
+  background: #f3f2f2;
+  box-shadow: 4px 0px 13px rgb(158, 158, 158, 0.12);
+  margin-bottom: 30px;
+  max-height: 393px;
+  overflow: hidden;
+}
+.videoInfoWrapper {
+  padding: 10px 20px;
+  text-align: left;
+}
+.videoDesc {
+  font-size: 0.6em;
+  color: #676767;
+}
+.videoTitle {
+  font-weight: 400;
+  line-height: 1em;
+}
+.videoTitle a {
+  color: #000;
+  text-decoration: none;
+}
+.title-wrapper {
+  background-color: rgba(247, 244, 244, 0.973);
+  font-size: 2.4rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.seeMore {
+  text-align: center;
+  font: size 1.4em;
+}
+.seeMore a {
+  text-decoration: none;
+}
+.seeMore a:hover {
+  text-decoration: underline;
+  color: rgb(60, 162, 245);
+}
+
+.seeMore a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 5px;
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+.seeMore a:hover::after {
+  text-decoration: none;
+}

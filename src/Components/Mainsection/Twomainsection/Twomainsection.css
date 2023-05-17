@@ -1,0 +1,263 @@
+/* main section four css ( beginning of two section wrapper)*/
+.main-section-left {
+  text-align: center;
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2% -0.5% 0 0.5%;
+  /* width: 48.5%; */
+  padding-top: 54px;
+  font-size: 24px;
+}
+
+.two-section-wrapper .MacBook-pro-wrapper {
+  background-image: url("../../../images/home/tile_macbookpro_small_2x.jpg");
+}
+@media only screen and (min-width: 735px) {
+  .two-section-wrapper .MacBook-pro-wrapper {
+    background-image: url("../../../images/home/tile_macbookpro_md_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .two-section-wrapper .MacBook-pro-wrapper {
+    background-image: url("../../../images/home/tile_macbookpro_lg_2x.jpg");
+  }
+}
+.main-section-right {
+  text-align: center;
+  height: 580px;
+  /* background-color: #FAFAFA; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2% 0.5% 0 -0.5%;
+  /* width: 48.5%; */
+  padding-top: 54px;
+  font-size: 24px;
+  color: #fff;
+}
+.two-section-wrapper .main-ipadpro-wrapper {
+  background-image: url("../../../images/home/promo_ipad_pro_small_2x.jpg");
+}
+@media only screen and (min-width: 735px) {
+  .two-section-wrapper .main-ipadpro-wrapper {
+    background-image: url("../../../images/home/promo_ipad_pro_md_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .two-section-wrapper .main-ipadpro-wrapper {
+    background-image: url("../../../images/home/promo_ipad_pro_lg_2x.jpg");
+  }
+}
+/* main section four css end */
+/*  main section five css start here */
+.two-section-wrapper .airpod-wrapper {
+  margin-top: 380px;
+}
+.two-section-wrapper .main-airpod-wrapper {
+  background-image: url("../../../images/home/tile_airpods_small_2x.jpg");
+}
+.promotion-6 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  line-height: 1.1;
+  letter-spacing: 0em;
+}
+@media only screen and (min-width: 735px) {
+  .two-section-wrapper .main-airpod-wrapper {
+    background-image: url("../../../images/home/tile_airpods_md_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .two-section-wrapper .main-airpod-wrapper {
+    background-image: url("../../../images/home/tile_airpods_lg_2x.jpg");
+  }
+}
+.apple-fitness .fitness-logo {
+  background-image: url("../../../images/icons/logo_fitness+_medium_2x.png");
+  height: 27px;
+  background-size: 140px 27px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.two-section-wrapper .main-fitness-wrapper {
+  background-image: url("../../../images/home/tile_applefitness_small_2x.jpg");
+  height: 580px;
+  background-size: 734px 580px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* background-color: orange; */
+  /* height: 430px; */
+  color: #1d1d1f;
+}
+.fitness-wrapper .footnote {
+  color: inherit;
+}
+.fitness-wrapper .footnote {
+  text-decoration: none;
+}
+.fitness-wrapper .footnote:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 735px) {
+  .two-section-wrapper .main-fitness-wrapper {
+    background-image: url("../../../images/home/tile_applefitness+_medium_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .apple-fitness .fitness-logo {
+    background-image: url("../../../images/icons/logo_fitness+_lg_2x.png");
+    height: 33px;
+    background-size: 174px 33px;
+  }
+
+  .two-section-wrapper .main-fitness-wrapper {
+    background-image: url("../../../images/home/tile_applefitness+_lg_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .two-section-wrapper .main-fitness-wrapper {
+    background-image: url("../../../images/home/tile_applefitness+_lg_2x.jpg");
+    height: 580px;
+    background-size: 1200px 580px;
+  }
+}
+/* main section five css end here */
+/* main section six start here */
+.apple-card {
+  background-image: url("../../../images/icons/logo_appleCard_sm_2x.png");
+  height: 29px;
+  background-size: 111px 29px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.two-section-wrapper .main-apple-card {
+  background-image: url("../../../images/home/tile__appleCard_sm_2x.jpg");
+}
+
+.apple-tv-plus {
+  background-image: url("../../../images/icons/logo__tv+_sm_2x.png");
+  height: 27px;
+  background-size: 69px 27px;
+  margin: 10px 80px 0;
+}
+.two-section-wrapper .main-tv-wrapper {
+  background-image: url("../../../images/home/promo_lincolns_dilemma_tv+_sm_2x.jpg");
+}
+.tv-plus-dilemma {
+  background-image: url("../../../images/icons/promo_logo_lincolns_dilemma_sm_2x.png");
+  height: 63px;
+  background-size: 282px 63px;
+  background-position: center;
+  margin-top: 72px;
+}
+.tagline {
+  background-image: url("../../../images/icons/promo_tagline_small_2x.png");
+  height: 15px;
+  background-size: 252px 15px;
+  opacity: 0.8;
+}
+.apple-logos {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tv-plus {
+  padding: 184px 0px 0px;
+  margin-top: 81px;
+}
+
+.watch-trailer {
+  text-align: center;
+  margin-top: -16px;
+}
+.watch-trailer a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #06c;
+}
+.watch-trailer a:hover {
+  text-decoration: underline;
+  color: #06c;
+}
+.watch-trailer a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 10px;
+  color: #06c;
+  display: inline-block;
+}
+.watch-trailer a:hover:after {
+  text-decoration: none;
+}
+@media only screen and (min-width: 735px) {
+  .apple-card {
+    background-image: url("../../../images/icons/logo_appleCard_md_2x.png");
+    height: 29px;
+    background-size: 109px 29px;
+  }
+  .two-section-wrapper .main-apple-card {
+    background-image: url("../../../images/home/tile__appleCard_md_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .apple-card {
+    background-image: url("../../../images/icons/logo_appleCard_lg_2x.png");
+    height: 35px;
+    background-size: 125px 35px;
+  }
+
+  .two-section-wrapper .main-apple-card {
+    background-image: url("../../../images/home/tile_appleCard_lg_2x.jpg");
+  }
+}
+@media only screen and (min-width: 735px) {
+  .apple-tv-plus {
+    background-image: url("../../../images/icons/logo_tv+_md_2x.png");
+    height: 27px;
+    background-size: 68px 27px;
+    margin: -20px 80px 0;
+  }
+}
+.two-section-wrapper .main-tv-wrapper {
+  background-image: url("../../../images/home/promo_lincolns_dilemma_tv+_md_2x.jpg");
+}
+.tv-plus-dilemma {
+  background-image: url("../../../images/icons/promo_logo_lincolns_dilemma_md_2x.png");
+  height: 67px;
+  background-size: 297px 67px;
+}
+.tagline {
+  background-image: url("../../../images/icons/promo_tagline_md_2x.png");
+  height: 15px;
+  background-size: 267px 15px;
+  opacity: 0.8;
+}
+@media only screen and (min-width: 1069px) {
+  .apple-tv-plus {
+    background-image: url("../../../images/icons/logo_tv+_lg_2x.png");
+    height: 33px;
+    background-size: 84px 33px;
+  }
+
+  .two-section-wrapper .main-tv-wrapper {
+    background-image: url("../../../images/home/promo_lincolns_dilemma__tv+_lg_2x.jpg");
+  }
+  .tv-plus-dilemma {
+    background-image: url("../../../images/icons/promo_logo_lincolns_dilemma_lg_2x.png");
+    height: 82px;
+    background-size: 367px 82px;
+  }
+  .tagline {
+    background-image: url("../../../images/icons/promo_tagline_lg_2x.png");
+    height: 18px;
+    background-size: 332px 18px;
+    opacity: 0.8;
+  }
+}
+/* main section six css ende here */

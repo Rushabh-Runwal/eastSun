@@ -1,0 +1,146 @@
+
+.row{
+    padding-left: 0;
+    padding-right:0;
+}
+.brief-description{
+     background:#f5f5f7;
+     font-size:14px;
+     font-weight: 300;
+ }
+ .brief-description p{
+     margin-bottom:0
+ }
+  .brief-description .footnote a{
+     text-decoration:none;
+     color: inherit;
+ }
+  .brief-description .footnote a:hover{
+     text-decoration:underline;
+     color: inherit;
+ }
+ 
+ 
+ .product-title {
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.21053;
+  letter-spacing: 0.012em;
+  /* color: #1d1d1f; */
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+ 
+ .product-brief {
+  font-size: 40px;
+  font-family: 'inter', sans-serif;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+  margin-bottom: 5px;
+}
+.monthly-price{
+    font-size: 14px;
+  font-family: 'inter', sans-serif;
+  line-height: 1.4705;
+  font-weight: 300;
+  letter-spacing: 0.012em;
+  margin-bottom: 10px;
+}
+.monthly-price .footnote a {
+    color:inherit;
+}
+.monthly-price .footnote a {
+    text-decoration: none;
+}
+.monthly-price .footnote a:hover {
+    text-decoration: underline;
+}
+.product-holder:nth-child(3){
+    background: #122239;
+    height: 1000px;
+    color: #fff;
+    padding-top:100px;
+}
+.two-links-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.links-wrapper {
+    background:#06c;
+    color: #fff;
+    border-radius:10px;
+    width: 60px;
+    height: 30px; 
+}
+.links-wrapper ul li{
+ margin-top:2px;
+}
+.links-wrapper:hover{
+    background: rgba(0, 102, 204, 0.863);
+}
+.links-wrapper ul{
+    list-style: none;
+    
+}
+.links-wrapper ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* iphone page  media query  */
+@media only screen and (min-width: 735px) {
+.product-title {
+   font-size: 21px;
+  line-height: 1.19;
+  letter-spacing: 0.011em;
+}
+ 
+ .product-brief {
+  font-size: 44px;
+  font-family: inherit;
+  line-height: 1.09091;
+  letter-spacing: 0.012em;
+  
+}
+.monthly-price{
+    font-size: 17px;
+  font-family: inherit;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+    
+}
+@media only screen and (min-width: 1069px) {
+.product-title {
+   font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.009em;
+}
+ 
+ .product-brief {
+  font-size: 48px;
+  font-family: inherit;
+  line-height: 1.083491;
+  letter-spacing: 0.03em;
+  
+}
+.monthly-price{
+    font-size: 19px;
+  font-family: inherit;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+}
+.two-links-wrapper{
+    width: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+    
+}

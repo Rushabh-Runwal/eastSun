@@ -1,0 +1,202 @@
+/* main section one css start here */
+.background-wrapper {
+  position: relative;
+  top: 44px;
+}
+.main-section-1 {
+  background-image: url("../../images/home/hero_iphone_13pro_small_2x.jpg");
+  text-align: center;
+  height: 548px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  margin-bottom: 65px;
+  padding-top: 55px;
+}
+.product-name {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: 0.004em;
+}
+.product-name h1 {
+  font-weight: 900;
+  /* color: #1d1d1f; */
+}
+.product-name .headline {
+  color: #1d1d1f;
+  opacity: 0.8;
+}
+
+.description {
+  font-size: 19px;
+  font-family: inherit;
+  line-height: 1.2105;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+.description p {
+  margin-bottom: 0px;
+}
+.links-learn-more ul {
+  list-style: none;
+}
+.links-learn-more ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-learn-more ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #06c;
+}
+.links-learn-more ul li a:hover {
+  text-decoration: underline;
+  color: #06c;
+}
+.links-learn-more ul li a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 18px;
+}
+.links-learn-more ul li a:hover::after {
+  text-decoration: none;
+}
+/*____________________///the first media query break point begin here///_____________________*/
+
+@media only screen and (min-width: 735px) {
+  .main-section-1 {
+    background-image: url("../../images/home/hero_iphone_13pro_md_tall_2x.jpg");
+  }
+  .product-name {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.08349;
+    letter-spacing: -0.002em;
+  }
+  .description {
+    font-size: 24px;
+    line-height: 1.67;
+    font-weight: 400;
+    letter-spacing: 0.009em;
+  }
+  .description p {
+    margin-bottom: 3px;
+  }
+}
+/*____________________///the 2nd media query break point begin here///_____________________*/
+@media only screen and (min-width: 1069px) {
+  .main-section-1 {
+    background-image: url("../../images/home/hero_iphone_13pro_lg_tall_2x.jpg");
+  }
+  .product-name {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07314;
+    letter-spacing: -0.005em;
+  }
+  .description {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+  }
+  .description p {
+    margin-bottom: 5px;
+  }
+}
+/* main section two css */
+.main-section-2 {
+  background-image: url("../../images/home/hero_iphone_13_small_2x.jpg");
+  height: 580px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 225px 10px;
+}
+.main-section-2 .iphone-wrapper {
+  margin-top: 25px;
+}
+.main-section-2 .iphone-wrapper p {
+  margin-bottom: 0px;
+  color: #fec2eb;
+}
+.iphone12pro {
+  font-weight: 600;
+  font-size: 36px;
+}
+.promotion {
+  font-size: 24px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+@media only screen and (min-width: 735px) {
+  .main-section-2 {
+    background-image: url("../../images/home/hero_iphone_13_md_tall_2x.jpg");
+    padding: 20px 10px;
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .main-section-2 {
+    background-image: url("../../images/home/hero_iphone_13_lg_tall_2x.jpg");
+  }
+}
+/* main section three css */
+.watch-icon {
+  background-image: url("../../images/icons/watch_logo_small_2x.png");
+  height: 47px;
+  background-size: 122px 47px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.watch-series-wrapper .watch-series span {
+  color: #bf4800;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.333;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.watch-series-wrapper .description p {
+  color: #1d1d1f;
+}
+.main-section-3 {
+  background-image: url("../../images/home/hero_watch_small_2x.jpg");
+  height: 580px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 735px) {
+  .watch-icon {
+    background-image: url("../../images/icons/watch_logo_md_tall_2x.png");
+    height: 64px;
+    background-size: 174px 64px;
+  }
+  .main-section-3 {
+    background-image: url("../../images/home/hero_watch_md_tall_2x.jpg");
+    padding: 20px 10px;
+  }
+}
+@media only screen and (min-width: 1069px) {
+  .watch-icon {
+    background-image: url("../../images/icons/watch_logo_lg_tall_2x.png");
+    height: 72px;
+    background-size: 188px 72px;
+  }
+  .main-section-3 {
+    background-image: url("../../images/home/hero_watch_lg_tall_2x.jpg");
+  }
+}
