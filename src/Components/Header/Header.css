@@ -16,7 +16,7 @@ body {
 }
 /* apple desk top header layout */
 .header-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(60, 60, 60, 0.8);
   height: 44px;
   z-index: 9999;
   position: fixed;
@@ -50,12 +50,13 @@ nav .nav-item-wrapper li a:hover {
   opacity: 1;
 }
 .logo-link {
-  background-image: url("../../images/icons/logo_sm.svg");
+  /* background-image: url("../../images/icons/logo_sm.svg"); */
+  background-image: url("https://eastsun.in/wp-content/uploads/EastSun-Electronics-flat-50px.png");
   display: block;
   background-position: center;
-  background-size: 15px 44px;
-  width: 15px;
-  height: 44px;
+  background-size: 120px 35px;
+  width: 120px;
+  height: 35px;
   background-repeat: no-repeat;
   /* margin-top:5px; */
 }

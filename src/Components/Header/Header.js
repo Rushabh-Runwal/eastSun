@@ -70,24 +70,27 @@ const Header = () => {
             className={`nav-item-wrapper ${width > 768 && ""} `}
           >
             <Navlinks urlLink="/" className="logo-link" />
-            <Navlinks urlLink="/Store" linkName="Store" />
-            <Navlinks urlLink="/Mac" linkName="Mac" />
-            <Navlinks urlLink="/iPad" linkName="iPad" />
-            <Navlinks urlLink="/iPhone" linkName="iPhone" />
-            <Navlinks urlLink="/watch" linkName="Watch" />
-            <Navlinks urlLink="/airpods" linkName="AirPods" />
-            <Navlinks urlLink="/tv" linkName="TV & Home" />
-            <Navlinks urlLink="onlyOnApple" linkName="Only on Apple" />
-            <Navlinks urlLink="/accessories" linkName="Accessories" />
-            <Navlinks urlLink="/support" linkName="Support" />
-            <li>
+            <Navlinks urlLink="/mobile-charger" linkName="Mobile Chargers" />
+            <Navlinks urlLink="/powerbanks" linkName="Power Banks" />
+            <Navlinks
+              urlLink="/car-mobile-charger"
+              linkName="Car Mobile Charger"
+            />
+            {/* <Navlinks urlLink="/iPhone" linkName="iPhone" />
+            <Navlinks urlLink="/watch" linkName="Watch" /> */}
+            {/* <Navlinks urlLink="/airpods" linkName="AirPods" />
+            <Navlinks urlLink="/tv" linkName="TV & Home" /> */}
+            {/* <Navlinks urlLink="onlyOnApple" linkName="Only on Apple" /> */}
+            <Navlinks urlLink="/about-us" linkName="About Us" />
+            <Navlinks urlLink="/contact-us" linkName="Contact Us" />
+            {/* <li>
               <Link
                 onClick={searchHandler}
                 className="search-link"
                 to="##"
               ></Link>
             </li>
-            <Navlinks urlLink="/cart" className="cart-link" />
+            <Navlinks urlLink="/cart" className="cart-link" /> */}
           </ul>
         </nav>
         {/* navigation item end here  */}
